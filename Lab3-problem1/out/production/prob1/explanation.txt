@@ -1,0 +1,8 @@
+Explanation:
+    Since if(!(aPersonWithJob instanceof PersonWithJob)) is satisfied program returns false
+    PersonWithJob is inheriting Person it will be an instance of Person class,
+    and we can't cast Person to PersonWithJob
+
+Solution:
+    Instead of inheriting from Person, we can use composition
+    We can create a Person object in PersonWithJob and forward requests for Person functionality
