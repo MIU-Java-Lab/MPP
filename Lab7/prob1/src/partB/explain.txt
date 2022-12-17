@@ -1,0 +1,9 @@
+First of all we are not overriding the equals method inside Employee
+Because to override it we need to use a syntax equals(Object ob)
+because equals accepts as a parameter Object class instance
+
+As we aren't overriding equals method contains() method is using default equals()
+method inside ArrayList
+
+Solution:
+    We need to properly override equals method

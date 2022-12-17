@@ -1,0 +1,5 @@
+containsKey() function uses hashCode(),
+but hashCode is not implemented inside Employee class
+
+Solution:
+We need to override it

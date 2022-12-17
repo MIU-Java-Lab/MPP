@@ -1,0 +1,4 @@
+We can't use mutable variable, boolean visited is mutable
+
+Solution:
+We need to remove setVisited from EmployeeInfo
